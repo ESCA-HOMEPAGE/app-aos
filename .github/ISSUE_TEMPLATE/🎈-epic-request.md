@@ -2,7 +2,7 @@
 name: "\U0001F388 Epic request"
 about: util 등 화면에 표시할 수 없는 작업을 적어주세요.
 title: ''
-labels: ''
+labels: Epic
 assignees: ''
 
 ---

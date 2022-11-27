@@ -2,7 +2,7 @@
 name: "\U0001F41B Bug report"
 about: 오류사항을 작성해주세요.
 title: ''
-labels: ''
+labels: bug
 assignees: ''
 
 ---

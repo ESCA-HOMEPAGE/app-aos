@@ -2,7 +2,7 @@
 name: "\U0001F4DC Feature request"
 about: 화면에 표시되는 작업을 적어주세요.
 title: ''
-labels: ''
+labels: enhancement
 assignees: ''
 
 ---
