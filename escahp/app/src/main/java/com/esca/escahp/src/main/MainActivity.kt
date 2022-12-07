@@ -1,8 +1,6 @@
 package com.esca.escahp.src.main
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.databinding.DataBindingUtil
 import com.esca.escahp.R
 import com.esca.escahp.config.BaseActivity
 import com.esca.escahp.databinding.ActivityMainBinding
@@ -17,10 +15,10 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val currentFragment = supportFragmentManager.findFragmentById(R.id.fl_main)
+        val currentFragment = supportFragmentManager.findFragmentById(R.id.fcv_main)
         if (currentFragment == null) {
             supportFragmentManager.beginTransaction()
-                .replace(R.id.fl_main, if (isLogin()) MainFragment() else StartFragment())
+                .replace(R.id.fcv_main, if (isLogin()) MainFragment() else StartFragment())
                 .commit()
         }
     }

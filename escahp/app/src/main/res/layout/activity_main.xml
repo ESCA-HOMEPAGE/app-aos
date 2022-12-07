@@ -13,7 +13,7 @@
         tools:context=".src.main.MainActivity">
 
         <androidx.fragment.app.FragmentContainerView
-            android:id="@+id/fl_main"
+            android:id="@+id/fcv_main"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_constraintStart_toStartOf="parent"
