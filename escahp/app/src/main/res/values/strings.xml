@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">escahp</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">ESCA</string>
+    
+    <string name="go_login">로그인하러가기</string>
+    <string name="have_you_account">계정이 없으신가요?</string>
+    <string name="go_sign_up"><b><u>가입하기</u></b></string>
 </resources>
