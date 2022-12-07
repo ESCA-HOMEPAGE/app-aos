@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">ESCA</string>
-    
+
+    <string name="notice_schedule">공지·일정</string>
+    <string name="freeboard">자유</string>
+    <string name="gallery_study">전시회·스터디</string>
+    <string name="my_page">내 계정</string>
+
     <string name="go_login">로그인하러가기</string>
     <string name="have_you_account">계정이 없으신가요?</string>
     <string name="go_sign_up"><b><u>가입하기</u></b></string>
