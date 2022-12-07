@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/noticeScheduleFragment"
+        android:icon="@drawable/ic_speakerphone_outline"
+        android:title="@string/notice_schedule" />
+    <item
+        android:id="@+id/freeFragment"
+        android:icon="@drawable/ic_freeuser_outline"
+        android:title="@string/freeboard" />
+    <item
+        android:id="@+id/galleryStudyFragment"
+        android:icon="@drawable/ic_dashboard_outline"
+        android:title="@string/gallery_study" />
+    <item
+        android:id="@+id/myPageFragment"
+        android:icon="@drawable/ic_person_outline"
+        android:title="@string/my_page" />
+</menu>

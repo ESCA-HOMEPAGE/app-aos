@@ -1,10 +1,7 @@
 package com.esca.escahp.src.main
 
-import android.os.Bundle
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.NavigationUI
 import com.esca.escahp.R
 import com.esca.escahp.config.BaseFragment
 import com.esca.escahp.databinding.FragmentMainBinding
@@ -18,6 +15,8 @@ class MainFragment : BaseFragment<FragmentMainBinding>() {
 
 
     override fun init() {
-        // TODO("Not yet implemented")
+        val navHostFragment = childFragmentManager.findFragmentById(R.id.fcv_mainF_host) as NavHostFragment
+        val navController = navHostFragment.navController
+        NavigationUI.setupWithNavController(binding.bnvMainF, navController)
     }
 }
