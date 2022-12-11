@@ -1,6 +1,5 @@
 package com.esca.escahp.src.main
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.esca.escahp.R
 import com.esca.escahp.config.BaseActivity
@@ -15,5 +14,16 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        val currentFragment = supportFragmentManager.findFragmentById(R.id.fcv_main)
+        if (currentFragment == null) {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fcv_main, if (isLogin()) MainFragment() else StartFragment())
+                .commit()
+        }
+    }
+
+    fun isLogin(): Boolean {
+        return true
     }
 }

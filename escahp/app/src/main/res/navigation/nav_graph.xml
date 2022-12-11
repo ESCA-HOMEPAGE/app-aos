@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/noticeScheduleFragment">
+
+    <fragment
+        android:id="@+id/noticeScheduleFragment"
+        android:name="com.esca.escahp.src.main.NoticeScheduleFragment"
+        android:label="NoticeScheduleFragment"
+        tools:layout="@layout/fragment_notice_schedule"/>
+
+    <fragment
+        android:id="@+id/freeFragment"
+        android:name="com.esca.escahp.src.main.FreeFragment"
+        android:label="FreeFragment"
+        tools:layout="@layout/fragment_free"/>
+    <fragment
+        android:id="@+id/galleryStudyFragment"
+        android:name="com.esca.escahp.src.main.GalleryStudyFragment"
+        android:label="GalleryStudyFragment"
+        tools:layout="@layout/fragment_gallery_study"/>
+    <fragment
+        android:id="@+id/myPageFragment"
+        android:name="com.esca.escahp.src.main.MyPageFragment"
+        android:label="MyPageFragment"
+        tools:layout="@layout/fragment_my_page"/>
+</navigation>
